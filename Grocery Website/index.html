@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Store</title>
+    <link rel="icon" type="image/icon" href="image/favicon.png">
+<!--Code for font awesome cdn-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--Code for font awesome cdn-->
+
+<!--Code for linking css file-->
+<link rel="stylesheet" type="text/css" href="css/styles.css" href="">
+<!--Code for linking css file-->
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+
+</head>
+<body>
+
+<!-- header section-->
+<header class="header">
+    <a href="#" class="logo"><i class="fa fa-shopping-basket" aria-hidden="true"></i>grocery</a>
+
+
+    <nav class="navbar">
+        
+        <a href="#home">home</a>
+
+        <a href="#features">features</a>
+
+        <a href="#products">products</a>
+
+        <a href="#categories">Categories</a>
+
+        <a href="#review">Review</a>
+
+        <a href="#blogs">blogs</a>
+
+    </nav>
+    <div class="icons">
+        <div class="fa fa-bars" id="menu-btn"></div>
+
+        <div class="fa fa-search" id="search-btn"></div>
+
+        <div class="fa fa-shopping-cart" id="cart-btn"></div>
+
+        <div class="fa fa-user" id="login-btn"></div>
+
+    </div>
+    <form class="search-form">
+
+        <input type="search" id="search-box" placeholder="Search Here..">
+        <label for="search-box" class="fa fa-search"></label>
+    </form>
+
+
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fa fa-trash"></i>
+            <img src="image/cart-img-1.png">
+            <div class="content">
+                <h3>Watermelon</h3>
+                <span class="price">$5.99/-</span>
+                <span class="quantity">Qty : 1</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fa fa-trash"></i>
+            <img src="image/cart-img-2.png">
+            <div class="content">
+                <h3>Onion</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">Qty : 2</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fa fa-trash"></i>
+            <img src="image/cart-img-3.png">
+            <div class="content">
+                <h3>Chicken</h3>
+                <span class="price">$7.99/-</span>
+                <span class="quantity">Qty : 1</span>
+            </div>
+        </div>
+    <div class="total">total : $18.97/-</div>
+    <a href="image/payment1.jpg" class="btn">Checkout</a>
+    </div>
+
+    <form action="#" class="login-form">
+        <h3>login now</h3>
+        
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+
+        <p>Forgot your Password <a href="#"> Click Here!</a></p>
+        <p>Dont Have an Account<a href="#"> Create Now!</a></p>
+        <input type="submit" value="Login Now" class="btn">
+    </form>
+</header>
+<!-- header section-->
+
+
+<!--banner section-->
+<section class="home" id="home">
+    <div class="content">
+        <h3>Fresh And <span>Organic</span> Products For You</h3>
+        <p>This website is designed by Anshuman,Aakash,Aman
+            so that Everyone Can Find Their Dream Food
+        </p>
+        <a href="#categories" class="btn">shop now</a>
+    </div>
+</section>
+<!--banner section-->
+
+<!--our features section-->
+<section class="features" id="features">
+    <h1 class="heading"> our <span>features</span></h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="image/feature-img-1.png">
+            <h3>fresh and Organic</h3>
+
+            <p>Eat Healthy!<br>Stay Healthy</p>
+
+            <a href="https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/organic-food/art-20043880#:~:text=Studies%20have%20shown%20much%20lower,Pesticide%20residue." target="_blank" class="btn">read more</a>
+        </div>  
+
+        <div class="box-container">
+            <div class="box">
+                <img src="image/feature-img-2.png">
+                <h3>Delivery</h3>
+    
+                <p>Delivery On Time<br>We Sacrifice our comfort!<br>For Your Comfort</p>
+    
+                <a href="https://www.routific.com/blog/on-time-delivery"target="_blank" class="btn">read more</a>
+            </div>
+
+            <div class="box-container">
+                <div class="box">
+                    <img src="image/feature-img-3.png">
+                    <h3>Payment Terms And Condition</h3>
+        
+                    <p>Only Cashless Transactions<br>Ecouraging Digital India!</p>
+        
+                    <a href="https://www.foodontrack.in/terms-and-conditions" target="_blank" class="btn">read more</a>
+                </div>
+    </div>
+</section>
+<!--our features section-->
+
+
+<!--our products section-->
+<section class="products" id="products">
+    <h1 class="heading">our<span>products</span></h1>
+    <div class="product-slider">
+            <div class="box">
+                <img src="image/product-1.png">
+                <h1>fresh orange</h1>
+                <div class="price"> $12.99/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="image/product-1.png" target="_blank" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="image/product-2.png">
+                <h1>fresh onions</h1>
+                <div class="price"> $14.00</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="image/product-2.png" target="_blank" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="image/product-3.png">
+                <h1>fresh Meat</h1>
+                <div class="price"> $20.00/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="image/product-3.png" target="_blank" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="image/product-4.png">
+                <h1>fresh Cabbage</h1>
+                <div class="price"> $25.00/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="image/product-4.png" target="_blank" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="image/product-5.png">
+                <h1>fresh potatoes</h1>
+                <div class="price"> $35.00/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="image/product-5.png"  target="_blank"class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="image/product-6.png">
+                <h1>fresh avocado</h1>
+                <div class="price"> $90.00-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="image/product-6.png"  target="_blank"class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="image/product-7.png">
+                <h1>fresh carrot</h1>
+                <div class="price"> $15.99/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="image/product-7.png"  target="_blank"class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="image/product-8.png">
+                <h1>fresh limes</h1>
+                <div class="price"> $12.99/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="image/product-8.png" target="_blank" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+       
+        </div>
+    </div>
+    </div>
+</section>
+<!--our products section-->
+
+
+
+<!--our categories section-->
+
+<section class="categories" id="categories">
+    <h1 class="heading">product<span>categories</span></h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="image/cat-1.png">
+            <h3>Vegetables</h3>
+            <p>Upto 45% Off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/cat-2.png">
+            <h3>Fresh Fruits</h3>
+            <p>Upto 45% Off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/cat-3.png">
+            <h3>Dairy Products</h3>
+            <p>Upto 45% Off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/cat-4.png">
+            <h3>Fresh Meat</h3>
+            <p>Upto 45% Off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+</section>
+
+<!--our categories section-->
+
+
+<!--our review section-->
+<section class="review" id="review">
+    <h1 class="heading">Customer's<span>Review</span></h1>
+
+    <div class="review-slider">
+        <div class="wrapper">
+            <div class="box">
+                <img src="image/pic-1.png">
+                <p>Delivery in 10 minutes only I like it. It is very useful for all food product, all product is fresh and original.</p>
+                <h3>Srijan Baniyal</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/pic-2.png">
+                <p>Obsessed with it 5 star rating</p>
+                <h3>Moksh Gupta</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/pic-3.png">
+                <p>Delivery in 5 minutes only!,helper for bachelors</p>
+                <h3>Anshuman Sharma</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/pic-4.png">
+                <p>Obsessed!!!</p>
+                <h3>Aakash Panwar</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--our review section-->
+
+
+<!--Blog Section-->
+<section class="blogs" id="blogs">
+    <h1 class="heading">Our's<span>Blogs</span></h1>
+    <div class="box-container">
+         <div class="box">
+            <img src="image/blog-1.jpg">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fa fa-user"></i>By User</a>
+                    <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>4th June 2006
+                    </a>
+                </div>
+                <h3>Fresh And Organic Fruits And Vegetables</h3>
+                <p>Loved These fresh/pure farm products nice smell and taste</p>
+                <a href="https://www.natures-glory.com/blogs/news/organic-fruits-and-vegetables-the-best-of-organic-food?srsltid=AfmBOopWLXdAeRfNmOnhh5MXMGf0yUKmplVzAmYtAPwE4znciSx1Nq_t" class="btn" target="_blank">read more</a>
+            </div>
+         </div>
+
+
+         <div class="box">
+            <img src="image/blog-2.jpg">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fa fa-user"></i>By User</a>
+                    <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>4th June 2006
+                    </a>
+                </div>
+                <h3>Fresh And Organic Fruits And Vegetables</h3>
+                <p>Loved These fresh/pure farm products nice smell and taste</p>
+                <a href="https://www.natures-glory.com/blogs/news/organic-fruits-and-vegetables-the-best-of-organic-food?srsltid=AfmBOopWLXdAeRfNmOnhh5MXMGf0yUKmplVzAmYtAPwE4znciSx1Nq_t" target="_blank" class="btn">read more</a>
+            </div>
+         </div>
+
+
+    <div class="box">
+        <img src="image/blog-2.jpg">
+        <div class="content">
+            <div class="icons">
+                <a href="#"><i class="fa fa-user"></i>By User</a>
+                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>4th June 2006
+                </a>
+            </div>
+            <h3>Fresh And Organic Fruits And Vegetables</h3>
+            <p>Loved These fresh/pure farm products nice smell and taste</p>
+            <a href="https://www.youtube.com/watch?v=CcEg84X3IzM&t=646s&pp=ygUTb3JnYW5pY3MgZm9vZCBpdGVtcw%3D%3D" target="_blank" class="btn" class="btn">read more</a>
+        </div>
+     </div>
+
+
+     <div class="box">
+        <img src="image/blog-3.jpg">
+        <div class="content">
+            <div class="icons">
+                <a href="#"><i class="fa fa-user"></i>By User</a>
+                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>4th June 2006
+                </a>
+            </div>
+            <h3>Fresh And Organic Fruits And Vegetables</h3>
+            <p>Loved These fresh/pure farm products nice smell and taste</p>
+            <a href="https://use.metropolis.org/sdg/3-good-health-and-well-being" target="_blank" class="btn">read more</a>
+        </div>
+     </div>
+
+</section>
+    <!-- Blog Section -->
+
+
+
+
+<!-- Footer Section -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Grocery <i class="fa fa-shopping-basket"></i></h3>
+
+            <p>Feel Free To Follow Us On Social Media Handles</p>
+
+            <p>Links Are given Below</p>
+            <div class="share">
+                <a href=https://www.facebook.com/blinkit.india/ target="_blank" class="fa fa-facebook"></a>
+                <a href="https://x.com/letsblinkit?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor&mx=2" target ="_blank" class="fa fa-twitter"></a>
+                <a href="https://www.instagram.com/letsblinkit/?hl=en" target="_blank" class="fa fa-instagram"></a>
+                <a href="https://in.linkedin.com/company/letsblinkit" target="_blank" class="fa fa-linkedin"></a>
+            </div>
+        </div>
+        
+        
+        
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#" class="links"> <i class="fa fa-phone"></i>+91 8799734512</a>
+            <a href="#" class="links"> <i class="fa fa-phone"></i>+91 9779489873</a>
+            <a href="#" class="links"> <i class="fa fa-envelope"></i>info@gmail.com</a>
+            <a href="#" class="links"> <i class="fa fa-map-marker"></i>Delhi,India</a>
+        </div>
+
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#" class="links"> <i class="fa fa-arrow-right"></i>Home</a>
+            <a href="#features" class="links"> <i class="fa fa-arrow-right"></i>Features</a>
+            <a href="#products" class="links"> <i class="fa fa-arrow-right"></i>Products</a>
+            <a href="#categories" class="links"> <i class="fa fa-arrow-right"></i>Categories</a>
+            <a href="#review" class="links"> <i class="fa fa-arrow-right"></i>Review</a>
+            <a href="#blogs" class="links"> <i class="fa fa-arrow-right"></i>Blogs</a>
+        </div>
+
+
+        <div class="box">
+            <h3>NewsLetter</h3>
+            <p>Sucribe For Up To Be Up To Date!</p>
+            <input type="email" placeholder="Enter Your Email" class="email">
+            <input type="submit" value="Subscribe" href="https://donatelife.net/how-you-can-help/take-action/subscribe-to-our-newsletter" class="btn">
+            <img src="image/payment.png" class="payment-img" href="" alt="#" class="src">
+        </div>
+    </div>
+
+
+<div class="credit">Created By<span> Anshuman,Aakash,Aman</span> | All Rights Reserved</div>
+</section> 
+<!-- Footer Section -->
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+<script  src="js/script.js"></script>
+</body>
+</html>
